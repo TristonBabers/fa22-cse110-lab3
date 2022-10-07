@@ -1,4 +1,4 @@
-1. greenEggsAndHame
+1. greenEggsAndHam
 2. iHateCplusplus
 3. HTMLRocks
 4. JavaScriptRules
