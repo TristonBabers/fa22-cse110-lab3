@@ -17,6 +17,10 @@
 p{
     text-align: justify;
 }
+hr {
+    border: 10px solid rgb(21, 19, 68);
+    border-radius: 5px;
+}
 h1{
     text-align: center;
 }
