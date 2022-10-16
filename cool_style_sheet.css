@@ -7,11 +7,12 @@
 
  body{
     background-color: rgb(247, 180, 55);
+    border-left-width: 0.25in;
     /*font-family: 'Segoe UI', Tahoma, Dancing Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Verdana, sans-serif;*/
     font-family: Dancing+system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .content-wrapper{
-    padding: 10px;
+    padding-left: 10px;
 }
 p{
     text-align: justify;
@@ -34,7 +35,7 @@ h2{
 }
 
 #chicanery{
-    padding-left:5mm;
+    padding-left:40mm;
 }
 section {
     display: grid;
@@ -42,12 +43,13 @@ section {
     border-style:grid;
     border-color:rgb(8, 0, 255);
     border-width:1.0em;
+    border-right: 100vw;
+    border-left: -40px;
     border-radius:0.5fr;
 }
 
 ul li{
     list-style-type: square;
-    margin-bottom: 5cm;
     margin-left: 2in;
     margin-right: 2in;
 }
