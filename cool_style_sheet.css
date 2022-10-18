@@ -18,12 +18,28 @@
 *{
     padding-left: 4mm;
 }
-#title{
+/* Containers */
+header{
     background-color: rgb(255, 255, 255);
     padding-left: 16px;
-    padding-right 16px;
-
+    padding-right: 16px;
 }
+section {
+    display: grid;
+    background-color:aliceblue;
+    border-style:grid;
+    border-color:rgb(8, 0, 255);
+    border-width:1.0em;
+    border-right: 100vw;
+    border-left: -40px;
+    border-radius:0.5fr;
+}
+.everything {
+    background-color: bisque;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+/* Other */
 p{
     text-align: left;
     margin-left:0%;
@@ -69,17 +85,6 @@ button:active {
 #chicanery{
     padding-left:40mm;
 }
-section {
-    display: grid;
-    background-color:aliceblue;
-    border-style:grid;
-    border-color:rgb(8, 0, 255);
-    border-width:1.0em;
-    border-right: 100vw;
-    border-left: -40px;
-    border-radius:0.5fr;
-}
-
 ul li{
     list-style-type: square;
     margin-left: 2in;
