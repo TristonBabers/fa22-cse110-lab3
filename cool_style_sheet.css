@@ -11,7 +11,7 @@
     background-color: rgb(247, 180, 55);
     border-right:1vmmm;
     font-family: Roboto, sans-serif;
-    padding-right:40px;
+    padding-right:120px;
 }
 .content-wrapper{
     padding-left: 10px;
@@ -44,6 +44,15 @@ section {
     background-color: rgb(107, 109, 109);
     padding-left: 40px;
     padding-right: 16px;
+}
+.side_bar {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: aquamarine;
 }
 
 /* Other */
