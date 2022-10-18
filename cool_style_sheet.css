@@ -18,6 +18,12 @@
 *{
     padding-left: 4mm;
 }
+#title{
+    background-color: rgb(255, 255, 255);
+    padding-left: 16px;
+    padding-right 16px;
+
+}
 p{
     text-align: left;
     margin-left:0%;
