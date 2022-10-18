@@ -23,6 +23,7 @@
 header{
     background-color: rgb(255, 255, 255);
     border-left: -4vmin;
+    max-width:max-content;
     border-right: -4vmin;
 }
 section {
@@ -48,8 +49,7 @@ section {
 .side_bar {
     height: 100%;
     width: 30px;
-    position: -webkit-sticky; /** YOU WILL NEVER ESCAPE SIDE BAR MWAHAHAHAAH */
-    position: sticky;
+    position: sticky; /** YOU WILL NEVER ESCAPE SIDE BAR MWAHAHAHAAH */
     left: 0;
     top: 0;
     padding-top: 40px;
@@ -73,7 +73,7 @@ hr {
 h1{
     font-family: 'Dancing Script', cursive;
     font-weight: 1000;
-    font-size:xx-large;
+    font-size: 3vw;
     color:rgb(255, 0, 0);
     text-align: center;
 }
@@ -105,6 +105,6 @@ button:active {
 }
 ul li{
     list-style-type: square;
-    margin-left: 2in;
+    margin-left: 0.06in;
     margin-right: 0.003in;
 }
