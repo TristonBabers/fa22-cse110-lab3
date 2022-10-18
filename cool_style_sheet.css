@@ -47,8 +47,9 @@ section {
 }
 .side_bar {
     height: 100%;
-    width: 150px;
-    position: absolute;
+    width: 30px;
+    position: -webkit-sticky; /** YOU WILL NEVER ESCAPE SIDE BAR MWAHAHAHAAH */
+    position: sticky;
     left: 0;
     top: 0;
     padding-top: 40px;
