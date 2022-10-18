@@ -11,6 +11,7 @@
     background-color: rgb(247, 180, 55);
     border-right:1vmmm;
     font-family: Roboto, sans-serif;
+    padding-right:40px;
 }
 .content-wrapper{
     padding-left: 10px;
@@ -21,8 +22,8 @@
 /* Containers */
 header{
     background-color: rgb(255, 255, 255);
-    padding-left: 16px;
-    padding-right: 16px;
+    border-left: -4vmin;
+    border-right: -4vmin;
 }
 section {
     display: grid;
@@ -34,11 +35,17 @@ section {
     border-left: -40px;
     border-radius:0.5fr;
 }
-.everything {
+.mostly_everything {
     background-color: bisque;
     padding-left: 16px;
     padding-right: 16px;
 }
+.meeting_agenda {
+    background-color: rgb(107, 109, 109);
+    padding-left: 40px;
+    padding-right: 16px;
+}
+
 /* Other */
 p{
     text-align: left;
@@ -50,14 +57,14 @@ p{
 }
 hr {
     border-style: double;
-    border: 20px solid rgb(21, 19, 68);
-    border-radius: 10px;
+    border: 10px solid rgb(21, 19, 68);
+    border-radius: 5px;
 }
 h1{
     font-family: 'Dancing Script', cursive;
-    font-weight: 300;
+    font-weight: 1000;
+    font-size:larger;
     color:rgb(255, 0, 0);
-    text-decoration:rgb(0, 255, 110);
     text-align: center;
 }
 .details{
@@ -80,6 +87,7 @@ button:hover {
 }
 button:active {
     color: rgb(187, 255, 0);
+    font-size:larger;
 }
 
 #chicanery{
